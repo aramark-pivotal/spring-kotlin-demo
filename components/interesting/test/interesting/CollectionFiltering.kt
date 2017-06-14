@@ -14,9 +14,9 @@ class SomeCollection {
         n.rem(divisor) == 0
 
     fun filter(): List<Int> {
-        val isEvenFunction = this::matches
+        val matchesFunction = this::matches
 
-        return numbers.filter(isEvenFunction)
+        return numbers.filter(matchesFunction)
     }
 }
 
